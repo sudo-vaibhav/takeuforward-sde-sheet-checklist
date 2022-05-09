@@ -11,3 +11,7 @@ Also since this is not published on the official chrome web store, you will have
 Disclaimer : I am not affiliated to the Take U Forward brand, nor is this extension offered by them. This is a personal project and I don't claim any ownership over the website content in any way.
 
 P.S. : I made this extension so I don't have to do [this](./dont-do-this/sde-sheet.pdf) anymore 🙊 . Thanks [Raj Vikramaditya](https://www.linkedin.com/in/rajarvp/) for this amazing resource that has helped thousands of people like me.
+
+If you want to connect, feel free to reach out on [linkedin](https://www.linkedin.com/in/vc2001/).
+
+You can also follow me on [Leetcode](https://leetcode.com/vaibhavchopra/) and [Codeforces](https://codeforces.com/profile/creamyCockroach)
