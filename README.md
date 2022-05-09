@@ -1,19 +1,7 @@
-# chrome-extension-starter-kit
-Chrome Extension starter Kit with es6 standards
+Just a simple script that allows you to mark your done questions on the famous Striver's SDE sheet.
 
-## Features
-- Working with Popup File
-- Working with Background File
-- Working with console.log across all files
-- Working with export, imports all types of ES6 keywords
-- Working with basic scrapping methods
-- Keep alive chrome extension in the background
-- Chrome extension Configured with ES6 standards
-- Chrome extension Configured with eslint standards
-- Chrome extension Configured with .editorconfig standards
-- Chrome extension Ables to open new window
-- Chrome extension Ables to open new window & Able to Read Content from the Amazon Product
+Read [this](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/) to learn how to install an unpacked extension. You can download the zip folder from github repo (the big green button) and then unzip it to get the extension code.
 
-## Do you need an expert?
-Are you finding a developer for your world-class product? If yes, please contact here. [Submit your project request here.](https://goo.gl/forms/UofdG5GY5iHMoUWg2)
-Originally by [Bhushankumar L](mailto:bhushankumar.lilapara@gmail.com).
+NOTE: I will constantly modify this extension to make it more useful for me and since this is not backed by any database, some changes might not be backwards compatible and users (including me) might loose their marked progress 🥲. So use this extension at your own discretion.
+
+Also since this is not published on the official chrome web store, you will have to manually update this extension by downloading this zip folder again and installing it just like the first time.
