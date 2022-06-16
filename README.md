@@ -1,6 +1,6 @@
 # Take U Forward SDE Sheet Checklist
 
-Just a simple script that allows you to mark your done questions on the famous Striver's SDE sheet.
+Just a simple script that allows you to mark your done questions on the famous Striver's SDE sheet published at <a href="https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/">https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/</a>.
 
 <img src="./images/screenshot.png">
 
