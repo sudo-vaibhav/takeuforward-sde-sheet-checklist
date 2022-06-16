@@ -25,6 +25,8 @@ const getProblemCell = (problem) => {
 
 const renderProgress = (problemsProgress) => {
     const questionCategories = document.querySelectorAll("details")
+    let totalProblems = 0;
+    let solvedProblems = 0;
     questionCategories.forEach(category => {
         const categoryHeading = category.querySelector("summary")
         const categoryProblems = category.querySelectorAll("table tr:not(:first-child)")
@@ -37,7 +39,8 @@ const renderProgress = (problemsProgress) => {
             }
         })
 
-
+        totalProblems += categoryProblems.length;
+        solvedProblems += solvedInCategoryCount;
         solvedText = ` (Solved ${solvedInCategoryCount}/${categoryProblems.length} )`
         if (categoryHeading.querySelector(".solved-problems-count")) {
             categoryHeading.querySelector(".solved-problems-count").innerHTML = solvedText
@@ -49,6 +52,14 @@ const renderProgress = (problemsProgress) => {
             )
         }
     })
+
+    document.querySelector("#overall-progress")?.remove()
+    const overallProgressDiv = `
+        <div id="overall-progress" style="font-weight:bold;position:fixed;top:25vh;right:10vw; background:#ed4d33;color:white; padding:2rem;">
+            Overall Solved ${solvedProblems}/${totalProblems}
+        </div>
+    `
+    document.querySelector("#secondary").insertAdjacentHTML("beforeend", overallProgressDiv)
 }
 if (window.location.href.includes(sdeSheetURL)) {
     console.log("sde sheet page loaded")
